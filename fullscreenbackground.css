@@ -1,0 +1,37 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.container{
+	width: 90%;
+	margin: auto;
+}
+body{
+	color: #574B39;
+	line-height: 1.5;
+}
+.bgimage{
+	background-image: url('beachshell.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 100vh;	
+}
+.beach{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh; 
+	font-size: 20px;
+}
+.button{
+	color:#574B39;
+	border: #574B39 2px solid;
+	border-radius: 10px;
+	padding: 10px 15px;
+	text-decoration: none;
+	margin-top: 10px;
+}
+a:hover{
+	background-color: white;
+}
